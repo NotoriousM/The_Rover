@@ -154,16 +154,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    // htim2.Instance->CCR2 = 100;       // Передаем результат на PWM
     
     servo_controlVelocity(&servo1, VELvalue); // 0 - 15
     htim4.Instance->CCR1 = PWM_servo + 27;    // 0 - 180
 
     // servo_controlPosition(&servo1, ANGvalue);
-  
-	  // HAL_Delay(2000);
-    // servo_controlPosition(&servo1, 15);
-
   }
   /* USER CODE END 3 */
 }
