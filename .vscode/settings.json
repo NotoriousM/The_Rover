@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "init.h": "c",
+        "stm32f103xb.h": "c"
+    },
+    "cortex-debug.armToolchainPath": "C:\\Users\\matve\\Desktop\\STM_Tools\\xpack-arm-none-eabi-gcc-13.2.1-1.1\\bin",
+    "cortex-debug.openocdPath": "C:\\Users\\matve\\Desktop\\STM_Tools\\OpenOCD-20240820-0.12.0\\bin\\openocd.EXE"
+}
