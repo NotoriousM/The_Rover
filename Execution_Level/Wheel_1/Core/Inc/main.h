@@ -40,7 +40,7 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+int a = 5+5;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
